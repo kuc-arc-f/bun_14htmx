@@ -6,7 +6,7 @@
 
  date    : 2024/08/26
 
- update :
+ update : 2024/08/28
 
 ***
 
@@ -55,6 +55,12 @@ bun run watch
 ***
 ### blog
 
+* https://knakatech-blog.pages.dev/posts/128
+
+***
+# License
+
+* MIT
 
 ***
 
