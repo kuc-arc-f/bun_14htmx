@@ -1,0 +1,27 @@
+{
+  "name": "bun_14htmx",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=develop bun run src/index.ts",
+    "dev:test": "bun run dist/index.js",
+    "build": "bun build --target=node --minify src/index.ts --outfile dist/index.js",
+    "build:prod": "NODE_ENV=production bun build --target=node --minify src/index.ts --outfile dist/index.js",
+    "clean": "bun run rimraf dist && bun run rimraf public/static",    
+    "start": "NODE_ENV=production bun run dist/index.js",
+    "watch": "NODE_ENV=develop bun --watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "rimraf": "^6.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2"
+  }
+}
