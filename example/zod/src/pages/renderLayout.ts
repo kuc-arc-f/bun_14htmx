@@ -29,9 +29,12 @@ export default function Compo(props: any) {
       <a href="/">[ home ]</a>
       <a href="/htmx2">[ htmx2 ]</a>
       <a href="/htmx3">[ htmx3 ]</a>
+      <a href="/zod">[ Zod ]</a>
     </div>
     <hr />        
     ${props.children}
+    <!-- script -->
+    <script src="${PATH__ENTRY_CLIENT}"></script>
   </body></html>
   `
   return html;
