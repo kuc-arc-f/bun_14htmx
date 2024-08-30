@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts,tsx", 
+  "ignore": ["src/**/*.txt"],
+  "exec": "bun run build && bun run build:css && NODE_ENV=develop bun run dist/index.js"
+}
