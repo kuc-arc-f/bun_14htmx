@@ -27,6 +27,13 @@ bun run watch
 ```
 
 ***
+### example
+* api_test: API connect example
+* tailwind: tailwindcss example
+* simple_auth: auth example, simple
+* zod: zod check exaple
+
+***
 * vercel.json
 
 ```
